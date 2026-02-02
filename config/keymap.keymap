@@ -19,41 +19,41 @@
 
         layer_0 {
             bindings = <
-&none          &none      &none     &none     &none     &none                                                          &none        &none     &none      &none     &none                 &none
-&kp TAB        &kp Q      &kp W     &kp E     &kp R     &kp T                                                          &kp Y        &kp U     &kp I      &kp O     &kp P                 &kp BSPC
-&kp CAPS       &kp A      &kp S     &kp D     &kp F     &kp G        &none                      &none                  &kp H        &kp J     &kp K      &kp L     &kp SEMI              &kp SQT
-&kp LSHFT      &kp Z      &kp X     &kp C     &kp V     &kp B        &lt 1 ESCAPE               &lt 1 ESCAPE           &kp N        &kp M     &kp COMMA  &kp DOT   &mt RIGHT_SHIFT FSLH  &kp RSHFT
-&kp BACKSPACE  &kp LCTRL  &kp LGUI  &kp LALT  &kp BSPC  &lt 2 SPACE  &mt LEFT_SHIFT LANGUAGE_1  &mt RSHIFT LANGUAGE_2  &lt 3 ENTER  &kp BSPC  &kp RALT   &kp RGUI  &kp RCTRL             &kp DELETE
+&none                      &none         &none  &none  &none  &none                                                        &none        &none  &none      &none    &none                 &none
+&kp TAB                    &kp Q         &kp W  &kp E  &kp R  &kp T                                                        &kp Y        &kp U  &kp I      &kp O    &kp P                 &kp LEFT_BRACKET
+&mt LEFT_CONTROL CAPSLOCK  &kp A         &kp S  &kp D  &kp F  &kp G        &none                    &none                  &kp H        &kp J  &kp K      &kp L    &kp SEMI              &kp SQT
+&kp LSHFT                  &kp Z         &kp X  &kp C  &kp V  &kp B        &lt 1 BACKSPACE          &lt 1 ESCAPE           &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT FSLH  &kp RSHFT
+&kp BACKSPACE              &kp LEFT_ALT  &none  &none  &none  &lt 2 SPACE  &mt LEFT_GUI LANGUAGE_1  &mt RSHIFT LANGUAGE_2  &lt 3 ENTER  &none  &none      &none    &kp RCTRL             &kp DELETE
             >;
         };
 
         mouse {
             bindings = <
-&trans  &trans  &trans     &trans     &trans     &trans                  &trans  &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans     &trans     &trans     &trans                  &trans  &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &mkp MCLK  &mkp RCLK  &mkp LCLK  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans  &trans
-&trans  &trans  &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans   &trans     &trans     &trans     &trans                   &trans             &trans             &trans            &trans            &trans  &trans
+&trans  &kp F11  &kp F2     &kp F3     &kp F4     &kp F12                  &msc MOVE_X(-10)   &msc MOVE_Y(-10)   &msc MOVE_Y(10)   &msc MOVE_X(10)   &trans  &trans
+&trans  &kp F1   &mkp MCLK  &mkp RCLK  &mkp LCLK  &kp F5   &trans  &trans  &trans             &mkp LCLK          &mkp RCLK         &mkp MCLK         &trans  &trans
+&trans  &kp F6   &kp F7     &kp F8     &kp F9     &kp F10  &trans  &trans  &mmv MOVE_X(-200)  &mmv MOVE_Y(-200)  &mmv MOVE_Y(200)  &mmv MOVE_X(200)  &trans  &trans
+&trans  &trans   &trans     &trans     &trans     &trans   &trans  &trans  &trans             &trans             &trans            &trans            &trans  &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &trans            &trans            &trans      &trans      &trans                      &trans         &trans         &trans            &trans             &trans         &trans
-&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                  &kp LS(N6)     &kp LS(N7)     &kp LS(N8)        &kp LS(N9)         &kp LS(N0)     &trans
-&trans  &kp N1            &kp N2            &kp N3      &kp N4      &kp N5      &trans  &trans  &kp NUMBER_0   &kp NUMBER_6   &kp NUMBER_7      &kp NUMBER_8       &kp NUMBER_9   &trans
-&trans  &kp N6            &kp N7            &kp N8      &kp N9      &kp N0      &trans  &trans  &kp LS(MINUS)  &kp LS(EQUAL)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
-&trans  &trans            &trans            &trans      &trans      &trans      &trans  &trans  &kp TAB        &kp DEL        &trans            &trans             &trans         &trans
+&trans  &trans                &trans        &trans    &trans                &trans                                        &trans        &trans           &trans             &trans             &trans         &trans
+&trans  &kp LS(LG(NUMBER_4))  &kp MINUS     &kp PLUS  &kp EQUAL             &kp CARET                                     &kp LS(N6)    &kp EXCLAMATION  &kp QUESTION       &kp PIPE           &kp LS(N0)     &trans
+&trans  &kp N1                &kp N2        &kp N3    &kp N4                &kp N5          &trans  &trans                &kp NUMBER_0  &kp NUMBER_6     &kp NUMBER_7       &kp NUMBER_8       &kp NUMBER_9   &trans
+&trans  &kp N6                &kp ASTERISK  &kp HASH  &kp NON_US_BACKSLASH  &kp UNDERSCORE  &trans  &kp LC(LEFT_BRACKET)  &kp DOLLAR    &kp PERCENT      &kp LA(SEMICOLON)  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
+&trans  &trans                &trans        &trans    &trans                &trans          &trans  &trans                &trans        &trans           &trans             &trans             &trans         &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &trans                &trans                 &trans            &trans             &trans                  &trans            &trans     &trans         &trans     &trans      &trans
-&trans  &none                 &none                  &kp LEFT_BRACE    &kp RIGHT_BRACE    &none                   &kp HOME          &kp PG_UP  &kp PAGE_DOWN  &kp END    &kp ESCAPE  &trans
-&trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none   &trans  &trans  &kp LEFT          &kp DOWN   &kp UP_ARROW   &kp RIGHT  &kp TAB     &trans
-&trans  &none                 &none                  &kp LESS_THAN     &kp GREATER_THAN   &none   &trans  &trans  &kp SINGLE_QUOTE  &kp DQT    &kp GRAVE      &kp TILDE  &kp PIPE    &trans
-&trans  &trans                &trans                 &trans            &trans             &trans  &trans  &trans  &trans            &trans     &trans         &trans     &trans      &trans
+&trans  &trans                &trans                 &trans            &trans             &trans                  &trans            &trans         &trans        &trans     &trans  &trans
+&trans  &none                 &none                  &kp LEFT_BRACE    &kp RIGHT_BRACE    &none                   &kp HOME          &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &trans  &trans
+&trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none   &trans  &trans  &kp LEFT          &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans  &trans
+&trans  &none                 &none                  &kp LESS_THAN     &kp GREATER_THAN   &none   &trans  &trans  &kp SINGLE_QUOTE  &kp DQT        &kp GRAVE     &kp TILDE  &trans  &trans
+&trans  &trans                &trans                 &trans            &trans             &trans  &trans  &trans  &trans            &trans         &trans        &trans     &trans  &trans
             >;
         };
     };
