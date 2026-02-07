@@ -19,10 +19,18 @@
 
         layer_0 {
             bindings = <
+<<<<<<< HEAD
 &kp TAB                    &kp Q         &kp W  &kp E  &kp R  &kp T                                                        &kp Y        &kp U  &kp I      &kp O    &kp P                 &kp LEFT_BRACKET
 &mt LEFT_CONTROL CAPSLOCK  &kp A         &kp S  &kp D  &kp F  &kp G                                                        &kp H        &kp J  &kp K      &kp L    &kp SEMI              &kp SQT
 &kp LSHFT                  &kp Z         &kp X  &kp C  &kp V  &kp B        &lt 1 BACKSPACE          &lt 1 ESCAPE           &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT FSLH  &kp RSHFT
 &kp BACKSPACE              &kp LEFT_ALT  &none  &none  &none  &lt 2 SPACE  &mt LEFT_GUI LANGUAGE_1  &mt RSHIFT LANGUAGE_2  &lt 3 ENTER  &none  &none      &none    &kp RCTRL             &kp DELETE
+=======
+&none                      &none         &none  &none  &none  &none                                                          &none        &none  &none      &none    &none      &none
+&kp TAB                    &kp Q         &kp W  &kp E  &kp R  &kp T                                                          &kp Y        &kp U  &kp I      &kp O    &kp P      &kp LEFT_BRACKET
+&mt LEFT_CONTROL CAPSLOCK  &kp A         &kp S  &kp D  &kp F  &kp G        &none                    &none                    &kp H        &kp J  &kp K      &kp L    &kp SEMI   &kp SQT
+&kp LSHFT                  &kp Z         &kp X  &kp C  &kp V  &kp B        &lt 1 ESCAPE             &lt 1 ESCAPE             &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH   &kp RSHFT
+&kp BACKSPACE              &kp LEFT_ALT  &none  &none  &none  &lt 2 SPACE  &mt LEFT_GUI LANGUAGE_1  &mt LEFT_ALT LANGUAGE_2  &lt 3 ENTER  &none  &none      &none    &kp RCTRL  &kp DELETE
+>>>>>>> b044f1b1071ff91a665eb07cbebd95a4ae67355c
             >;
         };
 
@@ -40,16 +48,34 @@
 &trans  &kp LS(LG(NUMBER_4))  &kp MINUS     &kp PLUS  &kp EQUAL             &kp CARET                                     &kp LS(N6)    &kp EXCLAMATION  &kp QUESTION       &kp PIPE           &kp LS(N0)     &trans
 &trans  &kp N1                &kp N2        &kp N3    &kp N4                &kp N5                                        &kp NUMBER_0  &kp NUMBER_6     &kp NUMBER_7       &kp NUMBER_8       &kp NUMBER_9   &kp AT_SIGN
 &trans  &kp N6                &kp ASTERISK  &kp HASH  &kp NON_US_BACKSLASH  &kp UNDERSCORE  &trans  &kp LC(LEFT_BRACKET)  &kp DOLLAR    &kp PERCENT      &kp LA(SEMICOLON)  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
-&trans  &trans                &trans        &trans    &trans                &trans          &trans  &trans                &trans        &trans           &trans             &trans             &trans         &trans
+&trans  &trans                &trans        &trans    &trans                &trans          &trans  &trans                &lt 4 COLON   &trans           &trans             &trans             &trans         &trans
             >;
         };
 
         layer_3 {
             bindings = <
+<<<<<<< HEAD
 &trans  &none                 &none                  &kp LEFT_BRACE    &kp RIGHT_BRACE    &none                   &kp HOME          &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &trans  &trans
 &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none                   &kp LEFT          &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans  &kp GRAVE
 &trans  &none                 &none                  &kp LESS_THAN     &kp GREATER_THAN   &none   &trans  &trans  &kp SINGLE_QUOTE  &kp DQT        &kp GRAVE     &kp TILDE  &trans  &trans
 &trans  &trans                &trans                 &trans            &trans             &trans  &trans  &trans  &trans            &trans         &trans        &trans     &trans  &trans
+=======
+&trans  &trans                &trans                 &trans            &trans             &trans                       &trans            &trans         &trans        &trans     &trans  &trans
+&trans  &none                 &none                  &kp LEFT_BRACE    &kp RIGHT_BRACE    &none                        &kp HOME          &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &trans  &trans
+&trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none        &trans  &trans  &kp LEFT          &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans  &kp GRAVE
+&trans  &none                 &none                  &kp LESS_THAN     &kp GREATER_THAN   &none        &trans  &trans  &kp SINGLE_QUOTE  &kp DQT        &kp GRAVE     &kp TILDE  &trans  &trans
+&trans  &trans                &trans                 &trans            &trans             &lt 4 COLON  &trans  &trans  &trans            &trans         &trans        &trans     &trans  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+>>>>>>> b044f1b1071ff91a665eb07cbebd95a4ae67355c
             >;
         };
     };
