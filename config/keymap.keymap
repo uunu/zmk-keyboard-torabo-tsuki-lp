@@ -19,17 +19,17 @@
 
         layer_0 {
             bindings = <
-&kp TAB                    &kp Q         &kp W  &kp E  &kp R  &kp T                                                          &kp Y        &kp U  &kp I      &kp O    &kp P      &kp LEFT_BRACKET
-&mt LEFT_CONTROL CAPSLOCK  &kp A         &kp S  &kp D  &kp F  &kp G                                                          &kp H        &kp J  &kp K      &kp L    &kp SEMI   &kp SQT
-&kp LSHFT                  &kp Z         &kp X  &kp C  &kp V  &kp B        &lt 1 ESCAPE             &lt 1 ESCAPE             &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH   &kp RSHFT
-&kp BACKSPACE              &kp LEFT_ALT  &none  &none  &mo 5  &lt 2 SPACE  &mt LEFT_GUI LANGUAGE_1  &mt LEFT_ALT LANGUAGE_2  &lt 3 ENTER  &mo 5  &none      &none    &kp RCTRL  &kp DELETE
+&kp TAB                    &kp Q         &kp W  &kp E  &kp R  &kp T                                                          &kp Y        &kp U  &kp I      &kp O    &kp P         &kp LEFT_BRACKET
+&mt LEFT_CONTROL CAPSLOCK  &kp A         &kp S  &kp D  &kp F  &kp G                                                          &kp H        &kp J  &kp K      &kp L    &kp SEMI      &kp SQT
+&kp LSHFT                  &kp Z         &kp X  &kp C  &kp V  &kp B        &lt 1 ESCAPE             &lt 5 ESCAPE             &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH      &kp RSHFT
+&kp BACKSPACE              &kp LEFT_ALT  &none  &none  &mo 5  &lt 2 SPACE  &mt LEFT_GUI LANGUAGE_1  &mt LEFT_ALT LANGUAGE_2  &lt 3 ENTER  &mo 5  &none      &none    &lt 1 ESCAPE  &kp DELETE
             >;
         };
 
         mouse {
             bindings = <
 &trans  &kp F11  &kp F2     &kp F3     &kp F4     &kp F12                  &msc MOVE_X(-10)   &msc MOVE_Y(-10)   &msc MOVE_Y(10)   &msc MOVE_X(10)   &trans  &trans
-&trans  &kp F1   &mkp MCLK  &mkp RCLK  &mkp LCLK  &kp F5                   &trans             &mkp LCLK          &mkp RCLK         &mkp MCLK         &trans  &trans
+&trans  &kp F1   &mkp MCLK  &mkp RCLK  &mkp LCLK  &kp F5                   &trans             &mkp LCLK          &mkp RCLK         &mo 5             &trans  &trans
 &trans  &kp F6   &kp F7     &kp F8     &kp F9     &kp F10  &trans  &trans  &mmv MOVE_X(-200)  &mmv MOVE_Y(-200)  &mmv MOVE_Y(200)  &mmv MOVE_X(200)  &trans  &trans
 &trans  &trans   &trans     &trans     &trans     &trans   &trans  &trans  &trans             &trans             &trans            &trans            &trans  &trans
             >;
@@ -46,8 +46,8 @@
 
         layer_3 {
             bindings = <
-&trans  &none                 &none                  &kp LEFT_BRACE    &kp RIGHT_BRACE    &none                                           &kp HOME          &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &trans  &trans
-&trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none                                           &kp LEFT          &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans  &kp GRAVE
+&trans  &none                 &none                  &kp LEFT_BRACE    &kp RIGHT_BRACE    &none                        &kp HOME          &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &trans  &trans
+&trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none                        &kp LEFT          &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans  &kp GRAVE
 &trans  &none                 &none                  &kp LESS_THAN     &kp GREATER_THAN   &none        &trans  &trans  &kp SINGLE_QUOTE  &kp DQT        &kp GRAVE     &kp TILDE  &trans  &trans
 &trans  &trans                &trans                 &trans            &trans             &lt 4 COLON  &trans  &trans  &trans            &trans         &trans        &trans     &trans  &trans
             >;
