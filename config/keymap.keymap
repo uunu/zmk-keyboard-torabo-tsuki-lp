@@ -28,10 +28,10 @@
 
         mouse {
             bindings = <
-&trans  &kp F11  &kp F2     &kp F3     &kp F4     &kp F12                  &msc MOVE_X(-10)   &msc MOVE_Y(-10)   &msc MOVE_Y(10)   &msc MOVE_X(10)   &trans  &trans
-&trans  &kp F1   &mkp MCLK  &mkp RCLK  &mkp LCLK  &kp F5                   &trans             &mkp LCLK          &mkp RCLK         &mo 5             &trans  &trans
-&trans  &kp F6   &kp F7     &kp F8     &kp F9     &kp F10  &trans  &trans  &mmv MOVE_X(-200)  &mmv MOVE_Y(-200)  &mmv MOVE_Y(200)  &mmv MOVE_X(200)  &trans  &trans
-&trans  &trans   &trans     &trans     &trans     &trans   &trans  &trans  &trans             &trans             &trans            &trans            &trans  &trans
+&trans  &kp F11  &kp F2  &kp F3     &kp F4     &kp F12                  &msc MOVE_X(-10)   &msc MOVE_Y(-10)   &msc MOVE_Y(10)   &msc MOVE_X(10)   &trans  &trans
+&trans  &kp F1   &mo 5   &mkp RCLK  &mkp LCLK  &kp F5                   &trans             &mkp LCLK          &mkp RCLK         &mo 5             &trans  &trans
+&trans  &kp F6   &kp F7  &kp F8     &kp F9     &kp F10  &trans  &trans  &mmv MOVE_X(-200)  &mmv MOVE_Y(-200)  &mmv MOVE_Y(200)  &mmv MOVE_X(200)  &trans  &trans
+&trans  &trans   &trans  &trans     &trans     &trans   &trans  &trans  &trans             &trans             &trans            &trans            &trans  &trans
             >;
         };
 
